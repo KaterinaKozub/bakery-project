@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
 </head>
@@ -15,35 +16,32 @@
             </a>
             <ul>
                 <li>
-                    <a href="#">
-                        Наші традиції
-                    </a>
+                    <a class="link" href="#traditions-section">Наші традиції</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Шеф-кухарі
-                    </a>
+                    <a class="link" href="#chefs-section">Шеф-кухарі</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Формати
-                    </a>
+                    <a class="link" href="#formats-section">Формати</a>
                 </li>
                 <li>
-                    <a href="#">
-                        Контакти
-                    </a>
+                    <a class="link" href="#contacts-section">Контакти</a>
                 </li>
             </ul>
         </nav>
-        <button type="button">Замовити дзвінок</button>
+        <button class="button" type="button">Замовити дзвінок</button>
     </header>
     <main>
         <section>
-            <h1>Сучасна пекарня</h1>
+            <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
         </section>
-        <section>
-            <h2>Новий формат традицій</h2>
+        <section id="traditions-section">
+            <ul class="advantages-list">
+                <li>Великий попит на ринку</li>
+                <li>Доступні за бюджетом формати</li>
+                <li>Досвідчена управлінська команда</li>
+            </ul>
+            <h2 class="section-title" >Новий формат традицій</h2>
             <p>
                 <spam>shop bakery</spam> — це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та
                 натуральність інгредієнтів.
@@ -56,10 +54,8 @@
             </p>
             <img src="./images/baker-man.jpg" alt="Пекарня"/>
         </section>
-        <section>
-            <h2>Наші найкращі
-                шеф -кухарі
-            </h2>
+        <section id="chefs-section">
+            <h2 class="section-title">Наші найкращі <span class="accent">шеф-кухарі</span></h2>
             <ul>
                 <li>
                     <article>
@@ -67,12 +63,12 @@
                         <p>
                             Привіт, я Настя!
                         </p>
-
+            
                         <p>
                             Вже 10 років, я свтілюю
                             у життя цікаві та смачні ідеї.
                         <p>
-
+            
                         <p>
                             Я випічу для вас
                             найсмачніщі вироби!
@@ -92,7 +88,7 @@
                             з Вами
                             через нашу випічку!
                         </p>
-
+            
                         <p>
                             Я зроблю для вас унікальну начинку на будь який смак!
                         </p>
@@ -100,8 +96,8 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2>Формати</h2>
+        <section id="formats-section">
+            <h2 class="section-title">Формати</h2>
            <ul>
             <li>
                 <article>
@@ -120,10 +116,11 @@
             </li>
            </ul>
         </section>
-        <section>
-            <h2>Приєднуйся до
+        <section id="contacts-section">
+            <h2 class="section-title">Приєднуйся до
                 мережі пекарень
             </h2>
+            <img src="./images/add.jpg" alt="Приєднуйся до мережі пекарень"/>
         </section>
     </main>
     <footer>
